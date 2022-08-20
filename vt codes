@@ -1,4 +1,4 @@
-local codes = {"20fivethousand","enchanted","vibin2022","9kamazing","sixthousandlikes","released","gobbylord"}
+local codes = {"10mvisits","20fivethousand","enchanted","vibin2022","9kamazing","sixthousandlikes","released","gobbylord"}
 
 for i, v in pairs(codes) do 
 game:GetService("ReplicatedStorage").Remotes.UI.RedeemCode:FireServer(i,v)
